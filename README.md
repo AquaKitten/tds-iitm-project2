@@ -23,3 +23,8 @@ curl "http://localhost:8000/api/"
 docker build -t data-analyst-agent .
 docker run -e OPENAI_API_KEY=sk-... -p 8000:8000 data-analyst-age
 undefined
+Or deploy to Render, Railway, etc.
+
+## License
+
+MIT License
